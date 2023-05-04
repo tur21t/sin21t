@@ -69,6 +69,6 @@ function playNote(key) {
 
 //This function accepts the values clicked as a parameter and returns the same to the textbox
 function display(val, noteName){
-    document.getElementById('result').value = noteName + " = " + val + " Hz "
+    document.getElementById('result').value = noteName + " ≈ " + val + " Hz "
     return val
 }
